@@ -78,7 +78,13 @@ lq <- laquinta %>%
 Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
 
-4.  Which states have the most and fewest Denny's locations? What about La Quinta? Is this surprising? Why or why not?
+4.  Which states have the most and fewest Denny's locations?
+
+California 403 and Delaware 1
+
+What about La Quinta? Is this surprising? Why or why not? 
+
+Texas237 
 
 For Denny's - Most
 
@@ -121,7 +127,7 @@ lq %>%
 \textcolor{red}{10 states with only one La Quinta Locations}
 
 
-5. Which states have the most Denny's locations per thousand square miles? What about La Quinta?
+5. Which states have the most Denny's locations per thousand square miles? What about La Quinta? Alaska
 
 \textcolor{red}{We are interested in the number of locations per state, which we could find in Denny's or La Quinta's datasets, and the area of each state, which is only available in the `states` dataset, which we imported earlier from the Data folder using the code `states <- read_csv("data/states.csv")`.}
 
